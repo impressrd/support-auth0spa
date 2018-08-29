@@ -42,7 +42,7 @@ const config = {
   mode: 'spa',
   plugins: ['~/plugins/auth0.js'],
   auth0: {
-    domain: 'YOUR_DOMAIN.auth0.com',
+    domain: 'YOUR_DOMAIN',
     clientID: 'YOUR_CLIENT_KEY'
   },
   generate: {

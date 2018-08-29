@@ -1,24 +1,38 @@
-# README
+# 「Auth0」で作る！認証付きシングルページアプリケーション サポートページ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このページは「「Auth0」で作る！認証付きシングルページアプリケーション」のサポートページ兼サンプルアプリケーションです。
 
-Things you may want to cover:
+https://nextpublishing.jp/book/9981.html
 
-* Ruby version
+## 補足資料
 
-* System dependencies
+* トークンの更新サンプル:  https://github.com/corocn/nuxt_auth0
 
-* Configuration
+## 設定方法
 
-* Database creation
+ * .env.sample をコピーして .envを作成。
+ * YOUR_CLIENT_IDおよびYOUR_DOMAINを設定する。
+ * frontend/nuxt.config.jsのauth0の項目も同様に設定する。
 
-* Database initialization
+## ビルドと起動
 
-* How to run the test suite
+Ruby, NPM or Yarnが必要です。
 
-* Services (job queues, cache servers, search engines, etc.)
+バックエンドは Rails の起動と同じです。
 
-* Deployment instructions
+```
+bundle install
+bundle exec rails server
+```
 
-* ...
+フロントエンドは Nuxt.js の起動方法と同じです。
+
+```
+cd frontend
+yarn install
+yarn dev
+```
+
+## 連絡先
+
+@corocn （Twitter/Github）までお問い合わせください。
